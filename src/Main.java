@@ -1,3 +1,5 @@
+//Creado Por Erick Salas
+
 import java.util.Scanner;
 
 public class Main {
@@ -40,7 +42,7 @@ public class Main {
             break;
         case 2:
             total = compra.calcularTotal(compra.getPrecioEntrada(), compra.getPrecioComidaBuffet());
-            scanner.nextLine();
+            scanner.nextLine(); //Esto se puso para limpiar el buffer del scanner y así poder guardar los datos almacenados
             System.out.println("Ingrese el nombre del platillo de la comida buffet:");
             String nombrePlatillo = scanner.nextLine();
 
