@@ -28,9 +28,9 @@ public class Main {
 
         System.out.println("Seleccione el paquete que desea comprar:");
         System.out.println("1. Entrada");
-        System.out.println("2. Entrada + Comida buffet");
-        System.out.println("3. Entrada + Comida buffet + Espectáculo nocturno");
-        System.out.println("4. Entrada + Comida buffet + Espectáculo nocturno + Nado con delfines");
+        System.out.println("2. Entrada Con Comida buffet");
+        System.out.println("3. Entrada con Comida buffet más Espectáculo nocturno");
+        System.out.println("4. Entrada con Comida buffet más Espectáculo nocturno más Nado con delfines");
 
         int opcion = scanner.nextInt();
         double total = 0;
