@@ -94,7 +94,6 @@ public class Main {
                 System.out.println("Total a pagar: $" + total);
                 break;
             case 4:
-                total = compra.calcularTotal(compra.getPrecioEntrada(), compra.getPrecioComidaBuffet(), compra.getPrecioEspectaculo(), compra.getPrecioNadoDelfines());
                 scanner.nextLine();
                 System.out.println("Ingrese el tipo de comida (Pastas, Caldos, Carnes, Mariscos):");
                 String tipoComida3 = scanner.nextLine();
@@ -113,6 +112,8 @@ public class Main {
                 System.out.println("Ingrese el tipo de interacción (sencilla o extra) del nado con delfines:");
                 String tipoInteraccion = scanner.nextLine();
 
+total = compra.calcularTotal(compra.getPrecioEntrada(), compra.getPrecioComidaBuffet(), compra.getPrecioEspectaculo(seleccionLugar2), compra.getPrecioNadoDelfines()); 
+
                 System.out.println("=======Detalle de la compra=======");
                 System.out.println("**Elementos adquiridos:**");
                 System.out.println(" - Entrada");
@@ -122,7 +123,7 @@ public class Main {
                 System.out.println("**Costos del paquete**");
                 System.out.println("Precio entrada: $" + compra.getPrecioEntrada());
                 System.out.println("Precio comida buffet: $" + compra.getPrecioComidaBuffet());
-                System.out.println("Precio espectáculo nocturno: $" + compra.getPrecioEspectaculo());
+                System.out.println("Precio espectáculo nocturno: $" + compra.getPrecioEspectaculo(seccionLugar2));
                 System.out.println("Precio nado con delfines: $" + compra.getPrecioNadoDelfines());
                 System.out.println("Total a pagar: $" + total);
                 break;
