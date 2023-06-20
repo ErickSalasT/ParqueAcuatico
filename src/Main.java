@@ -112,7 +112,7 @@ public class Main {
                 System.out.println("Ingrese el tipo de interacción (sencilla o extra) del nado con delfines:");
                 String tipoInteraccion = scanner.nextLine();
 
-total = compra.calcularTotal(compra.getPrecioEntrada(), compra.getPrecioComidaBuffet(), compra.getPrecioEspectaculo(seleccionLugar2), compra.getPrecioNadoDelfines()); 
+total = compra.calcularTotal(compra.getPrecioEntrada(), compra.getPrecioComidaBuffet(), compra.getPrecioEspectaculo(seccionLugar2), compra.getPrecioNadoDelfines()); 
 
                 System.out.println("=======Detalle de la compra=======");
                 System.out.println("**Elementos adquiridos:**");
